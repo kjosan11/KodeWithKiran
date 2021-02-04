@@ -1,0 +1,15 @@
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 1180px;
+  color: red;
+  background-color: #d83d7e;
+}
+
+body {
+  background-color: #c2a69f;
+}
+
+.logoname {
+  color: rgb(223, 75, 99);
+}
