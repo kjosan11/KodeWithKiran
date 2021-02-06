@@ -12,4 +12,12 @@ body {
 
 .logoname {
   color: rgb(223, 75, 99);
+  position: fixed;
+  top: 0px;
+  right: 1180px;
+}
+
+#homepage {
+  color: rgb(27, 185, 172);
+  font-size: 100px;
 }
