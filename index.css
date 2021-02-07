@@ -1,7 +1,7 @@
 #navbar {
   position: fixed;
   top: 0px;
-  left: 1180px;
+  left: 1008px;
   color: red;
   background-color: #d83d7e;
 }
@@ -14,10 +14,22 @@ body {
   color: rgb(223, 75, 99);
   position: fixed;
   top: 0px;
-  right: 1180px;
+  right: 1028px;
 }
 
 #homepage {
   color: rgb(27, 185, 172);
   font-size: 100px;
+}
+
+#contactpage {
+  position: fixed;
+  bottom: 0px;
+  right: 550px;
+  text-align: center;
+  background-color: blue;
+}
+
+p {
+  text-align: center;
 }
