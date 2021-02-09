@@ -5,6 +5,9 @@
   color: red;
   background-color: #d83d7e;
 }
+p:hover {
+  color: rgb(34, 153, 117);
+}
 
 body {
   background-color: #c2a69f;
@@ -15,6 +18,9 @@ body {
   position: fixed;
   top: 0px;
   right: 1028px;
+  background: transparent;
+  animation-name: rainbow;
+  animation-duration: 4s;
 }
 
 #homepage {
@@ -32,4 +38,13 @@ body {
 
 p {
   text-align: center;
+}
+
+@keyframes rainbow {
+  0% {
+    background-color: palevioletred;
+  }
+  100% {
+    background-color: cornflowerblue;
+  }
 }
