@@ -1,14 +1,21 @@
 #navbar {
   position: fixed;
   top: 0px;
-  left: 1008px;
+  left: 550px;
   color: red;
-  background-color: #d83d7e;
+  font-size: 40px;
 }
 p:hover {
   color: rgb(34, 153, 117);
 }
-
+a {
+  margin-left: 0.3em;
+}
+a:hover {
+  color: white;
+  font-style: unset;
+  font-size: larger;
+}
 body {
   background-color: #c2a69f;
 }
@@ -20,7 +27,7 @@ body {
   right: 1028px;
   background: transparent;
   animation-name: rainbow;
-  animation-duration: 4s;
+  animation-duration: 5s;
 }
 
 #homepage {
@@ -28,7 +35,7 @@ body {
   font-size: 100px;
 }
 
-#contactpage {
+#footerpage {
   position: fixed;
   bottom: 0px;
   right: 550px;
@@ -42,9 +49,11 @@ p {
 
 @keyframes rainbow {
   0% {
-    background-color: palevioletred;
+    color: rgb(177, 73, 108);
+    transition: color 2s;
   }
   100% {
-    background-color: cornflowerblue;
+    color: cornflowerblue;
+    transition: color 2s;
   }
 }
