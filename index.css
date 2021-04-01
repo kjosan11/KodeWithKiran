@@ -1,9 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
 #navbar {
   position: fixed;
   top: 0px;
   left: 550px;
-  color: red;
-  font-size: 40px;
 }
 p:hover {
   color: rgb(34, 153, 117);
@@ -12,12 +13,8 @@ a {
   margin-left: 0.3em;
 }
 a:hover {
-  color: white;
-  font-style: unset;
-  font-size: larger;
 }
 body {
-  background-color: #c2a69f;
 }
 
 .logoname {
@@ -28,13 +25,19 @@ body {
   background: transparent;
   animation-name: rainbow;
   animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 
 #homepage {
   color: rgb(27, 185, 172);
   font-size: 100px;
+  height: 600px;
+  background-color: pink;
 }
-
+#blogspage {
+  height: 600px;
+  background-color: yellow;
+}
 #footerpage {
   position: fixed;
   bottom: 0px;
@@ -50,10 +53,35 @@ p {
 @keyframes rainbow {
   0% {
     color: rgb(177, 73, 108);
-    transition: color 2s;
+    transition: color 4s;
+  }
+  50% {
+    color: blueviolet;
+    transition: color 5s;
   }
   100% {
     color: cornflowerblue;
-    transition: color 2s;
+    transition: color 4s;
   }
+}
+.site-header {
+  position: relative;
+  background-color: #def7ff;
+}
+.site-header__wrapper {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+@media (min-width: 600px) {
+  .site-header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+.nav__item a {
+  display: block;
+  padding: 1.5rem 1rem;
 }
