@@ -3,34 +3,42 @@
   padding: 0px;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 8vh;
-  font-family: "Rock Salt", cursive;
-  background-color: #f96262;
+  display: inline-block;
+  position: fixed;
+  width: 100%;
+  min-height: 10vh;
+  font-family: "Rock Salt";
+  background: #f96262;
+  opacity: 0.65;
+  border: 1px solid #dcd1d1;
 }
 .logo {
   color: antiquewhite;
-  text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 20px;
 }
 .navlinks {
   display: flex;
   justify-content: space-around;
-  width: 40%;
 }
 .navlinks li {
   list-style: none;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 30px;
 }
 .navlinks a {
-  color: antiquewhite;
+  color: rgb(0, 0, 0);
   text-decoration: none;
-  letter-spacing: 3px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 20px;
 }
 .burger div {
   width: 25px;
@@ -131,4 +139,41 @@ nav {
     padding-top: 0;
     padding-bottom: 0;
   }
+}
+.kodelogo {
+  position: absolute;
+  width: 454px;
+  height: 119px;
+  left: 35%;
+  top: 104px;
+  justify-content: space-between;
+  font-family: "Rock Salt";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 119px;
+}
+.homepage {
+  height: 600px;
+  background-color: pink;
+  color: red;
+}
+
+.aboutpage {
+  height: 600px;
+}
+.projectpage {
+  height: 600px;
+  background-color: pink;
+}
+.blogpage {
+  height: 600px;
+}
+.contactpage {
+  height: 600px;
+  background-color: pink;
+}
+h1 {
+  top: 50%;
+  text-align: center;
 }
